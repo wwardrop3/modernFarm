@@ -28,7 +28,8 @@ const crop = function* () {
         const typeIdx = Math.floor(Math.random() * types.length)
         yield types[typeIdx]
     }
-}
+}()
+
 
 
 

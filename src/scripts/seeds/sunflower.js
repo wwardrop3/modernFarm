@@ -1,4 +1,4 @@
-const createSunflower = () => {
+export const createSunflower = () => {
     const seed = {
         type: "Sunflower",
         height: 380,
