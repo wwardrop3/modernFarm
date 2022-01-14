@@ -8,6 +8,7 @@ import { createWheat } from "./seeds/wheat.js"
 import { addPlant } from "./field.js"
 import { usePlants } from "./field.js"
 import { plantSeeds } from "./tractor.js"
+import { plantsArray } from "./field.js"
 
 const plantSeedFunctionObject = {
     Asparagus: createAsparagus(),
@@ -21,14 +22,9 @@ const plantSeedFunctionObject = {
 
 console.log("Welcome to the main module")
 
-const asparagusSeed = createAsparagus()
-
-addPlant(asparagusSeed)
-
-const usedPlants = usePlants()
-
-console.log(usedPlants)
-
 const plan = createPlan()
 
 plantSeeds(plan, plantSeedFunctionObject)
+
+const plantList = usePlants()
+console.log(plantList)

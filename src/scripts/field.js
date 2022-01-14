@@ -1,4 +1,4 @@
-const plantsArray = []
+export const plantsArray = []
 
 export const addPlant = (seedObject) => {
     plantsArray.push(seedObject)
