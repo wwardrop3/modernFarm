@@ -9,6 +9,7 @@ import { addPlant } from "./field.js"
 import { usePlants } from "./field.js"
 import { plantSeeds } from "./tractor.js"
 import { plantsArray } from "./field.js"
+import { harvestPlants } from "./harvester.js"
 
 const plantSeedFunctionObject = {
     Asparagus: createAsparagus(),
@@ -27,4 +28,11 @@ const plan = createPlan()
 plantSeeds(plan, plantSeedFunctionObject)
 
 const plantList = usePlants()
+
 console.log(plantList)
+
+const fullPlantList = harvestPlants(plantList)
+
+
+console.log("afsdafsd")
+console.log(fullPlantList)
