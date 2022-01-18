@@ -1,3 +1,5 @@
+//returns the total yield of the plants based on the output yield property in each seed type
+
 export const harvestPlants = (plantsArray) => {
     const seedObjects = []
     for (const plant of plantsArray) {

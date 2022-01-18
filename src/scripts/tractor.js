@@ -1,3 +1,6 @@
+//plants each seed type with their own properties through the planned planting array
+
+
 import { addPlant } from "./field.js"
 
 export const plantSeeds = (plantingPlanArray, plantSeedFunctionObject) => {
