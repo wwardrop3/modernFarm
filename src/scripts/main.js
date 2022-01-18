@@ -30,11 +30,6 @@ plantSeeds(plan, plantSeedFunctionObject)
 
 const plantList = usePlants()
 
-console.log(plantList)
-
 const fullPlantList = harvestPlants(plantList)
 
 const htmlOutput = catalog(fullPlantList)
-
-console.log(htmlOutput)
-console.log(fullPlantList)

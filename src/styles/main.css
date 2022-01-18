@@ -38,5 +38,9 @@ h1,h2,h3,h4,h5,h6 {
     display: flex;
     flex-wrap: wrap;
     margin: .3em;
+    justify-content: space-between;
+    width: 80%;
+    align-content: center;
+
 
 }
