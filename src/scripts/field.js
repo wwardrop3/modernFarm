@@ -7,11 +7,11 @@ export const addPlant = (seedObject) => {
         for (const subplant of seedObject) {
             plantsArray.push(subplant)
         }
-    } else
-    {
-        plantsArray.push(seedObject)
-    }
-    
+        } else
+        {
+            plantsArray.push(seedObject)
+        }
+
 }
 
 export const usePlants = () => {

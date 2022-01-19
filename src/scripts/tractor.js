@@ -20,16 +20,14 @@ export const plantSeeds = (plantingPlanArray) => {
             } else if (plant==="Potato") {
                 plantObject= createPotato();
             } else if (plant === "Sunflower") {
-                plantObject = createSunflower;
+                plantObject = createSunflower();
             } else if (plant==="Soybean") {
-                plantObject = createSoybean;
+                plantObject = createSoybean();
             } else if (plant === "Wheat") {
                 plantObject = createWheat()
             }
-            
             addPlant(plantObject)
             }
 
-            
         }
     }
